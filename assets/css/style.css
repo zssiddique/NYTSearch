@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: #080C3B;
+    color: white;
+    text-align: center;
+}
+
+.panhead {
+    background-color: #080C3B;
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}

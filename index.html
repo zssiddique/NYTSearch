@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="jumbotron">
+                            <h1>New York Times Search!</h1>
+                    </div>
+            
+                    <div class="panel">
+                            <div class="panel-heading panhead">Search Parameters</div>
+                                <div class="panel-body">
+                                    <div class="inputGroup">        
+                                        <label for="searchTerm">Search Term:</label>
+                                            <input type="text" class="form-control margin-bottom" id="searchTerm">
+                                    </div>
+                                    <div class="inputGroup">        
+                                        <label for="numberRecords">Number of Records to Retrieve:</label>
+                                            <input type="text" class="form-control margin-bottom" id="numberRecords">
+                                    </div>
+                                    <div class="inputGroup">        
+                                        <label for="startYear">Start Year (Optional):</label>
+                                            <input type="text" class="form-control" id="startYear">
+                                    </div>
+                                    <div class="inputGroup">        
+                                        <label for="endYear">End Year (Optional):</label>
+                                            <input type="text" class="form-control" id="endYear">
+                                    </div>
+            
+                                    <div class="btnGroup">
+                                            <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-search"> Search</i></button>
+                                            <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-wrench"></i> Clear Results</button>
+                                    </div>
+                                </div>
+                    </div>
+            
+                    <div class="panel">
+                            <div class="panel-heading panhead">Top Articles</div>
+                                <div class="panel-body"></div>        
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+    </body>
+</html>
